@@ -8,7 +8,7 @@ function calcMortgage(){
             icon: "error",
             title: "Error",
             text: "Please enter a positive dollar value for the Loan Amount",
-            backdrop: false,
+            backdrop: false
         });
         return;
     }
@@ -17,7 +17,7 @@ function calcMortgage(){
             icon: "error",
             title: "Error",
             text: "Please enter a positive number of months for the Term",
-            backdrop: false,
+            backdrop: false
         });
         return;
     }
@@ -26,7 +26,7 @@ function calcMortgage(){
             icon: "error",
             title: "Error",
             text: "Please enter a positive percentage value for the Interest Rate",
-            backdrop: false,
+            backdrop: false
         });
         return;
     }
